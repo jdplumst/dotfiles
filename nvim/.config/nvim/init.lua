@@ -112,8 +112,8 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
--- Turn off line wrap
-vim.opt.wrap = false
+-- Turn one line wrap
+vim.opt.wrap = true
 
 -- Show bar for column 80
 vim.opt.colorcolumn = '80'
