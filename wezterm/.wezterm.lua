@@ -12,11 +12,11 @@ config.color_scheme = "catppuccin-mocha"
 
 -- Font
 config.font = wezterm.font("JetBrains Mono")
-config.font_size = 13.0
+config.font_size = 17.0
 
 -- Spawn a bash shell in login mode
 -- config.default_prog = { 'C:\\Program Files\\Git\\bin\\bash.exe', '-l' }
-config.default_domain = "WSL:Ubuntu"
+-- config.default_domain = "WSL:Ubuntu"
 
 local mux = wezterm.mux
 
@@ -42,7 +42,7 @@ config.keys = {
 config.automatically_reload_config = true
 
 -- Hide title
-config.window_decorations = "RESIZE"
+-- config.window_decorations = "RESIZE"
 
 -- Hide tabs
 config.use_fancy_tab_bar = false
