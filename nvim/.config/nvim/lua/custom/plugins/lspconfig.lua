@@ -141,7 +141,7 @@ return { -- LSP Configuration & Plugins
       pyright = {},
       rust_analyzer = {},
       html = {},
-      htmx = {},
+      -- htmx = {},
       emmet_ls = {},
       tailwindcss = {},
       dockerls = {},
