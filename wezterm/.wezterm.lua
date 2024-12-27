@@ -12,7 +12,7 @@ config.color_scheme = "catppuccin-mocha"
 
 -- Font
 config.font = wezterm.font("JetBrains Mono")
-config.font_size = 17.0
+config.font_size = 18.0
 
 -- Spawn a bash shell in login mode
 -- config.default_prog = { 'C:\\Program Files\\Git\\bin\\bash.exe', '-l' }
