@@ -144,6 +144,7 @@ return { -- LSP Configuration & Plugins
       -- htmx = {},
       emmet_ls = {},
       tailwindcss = {},
+      astro = {},
       dockerls = {},
       sqlls = {},
       omnisharp = {},
