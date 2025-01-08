@@ -7,3 +7,4 @@ macos-icon-ghost-color = #FF0000
 macos-icon-screen-color = #2121DE
 window-padding-x = 10
 window-padding-y = 10
+fullscreen = true
