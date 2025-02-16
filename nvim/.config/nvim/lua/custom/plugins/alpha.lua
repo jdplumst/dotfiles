@@ -15,6 +15,8 @@ return {
       [[                                                    ]],
     }
     dashboard.section.header.val = logo
+    dashboard.section.header.opts.hl = 'Teal'
+    vim.api.nvim_set_hl(0, 'Teal', { fg = '#94e2d5', bold = true })
 
     dashboard.section.buttons.val = {
       dashboard.button('sf', ' ' .. 'Search Files', ':Telescope find_files <CR>'),
