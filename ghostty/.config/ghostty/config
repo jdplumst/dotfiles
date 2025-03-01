@@ -1,10 +1,8 @@
-theme = catppuccin-mocha-custom.conf
+theme = catppuccin-mocha
 font-size = 18
 font-feature = -liga
 macos-option-as-alt = true
-macos-icon = custom-style
-macos-icon-ghost-color = #FF0000
-macos-icon-screen-color = #2121DE
+macos-icon = holographic
 window-padding-x = 10
 window-padding-y = 10
-fullscreen = true
+maximize = true
