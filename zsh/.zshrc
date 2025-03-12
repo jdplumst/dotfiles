@@ -165,3 +165,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
+
+# Added by Windsurf
+export PATH="/Users/jdplumst/.codeium/windsurf/bin:$PATH"
