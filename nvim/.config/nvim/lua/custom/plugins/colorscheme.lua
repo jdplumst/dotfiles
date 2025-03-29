@@ -14,7 +14,7 @@ return { -- You can easily change to a different colorscheme.
     -- vim.cmd.colorscheme 'terafox'
     -- vim.cmd.colorscheme 'carbonfox'
     -- vim.cmd.colorscheme 'cyberdream'
-    vim.cmd.colorscheme 'catppuccin-mocha'
+    vim.cmd.colorscheme 'catppuccin-macchiato'
     -- local time = os.date '*t'
     -- if time.hour >= 11 and time.hour < 20 then
     --   vim.cmd.colorscheme 'catppuccin-macchiato'
