@@ -1,4 +1,4 @@
-theme = catppuccin-mocha
+theme = rose-pine
 font-size = 18
 font-feature = -calt, -liga, -dlig
 macos-option-as-alt = true
