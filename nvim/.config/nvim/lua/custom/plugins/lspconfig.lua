@@ -110,7 +110,15 @@ return { -- LSP Configuration & Plugins
       dockerls = {},
       sqlls = {},
       omnisharp = {},
-      ts_ls = {},
+      ts_ls = {
+        init_options = {
+          preferences = {
+            includeCompletionsForModuleExports = true,
+            includeCompletionsForImportStatements = true,
+            importModuleSpecifierPreference = 'non-relative',
+          },
+        },
+      },
       eslint = {},
       --
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
