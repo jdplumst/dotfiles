@@ -6,10 +6,17 @@ return {
   -- 'scottmckendry/cyberdream.nvim',
   -- 'rose-pine/neovim',
   priority = 1000, -- make sure to load this before all the other start plugins
+  -- opts = {
+  --   transparent = true,
+  --   styles = {
+  --     sidebars = 'transparent',
+  --     floats = 'transparent',
+  --   },
+  -- },
   init = function()
     -- Load the colorscheme here.
-    vim.cmd.colorscheme 'tokyonight-moon'
-    -- vim.cmd.colorscheme 'tokyonight-night'
+    -- vim.cmd.colorscheme 'tokyonight-moon'
+    vim.cmd.colorscheme 'tokyonight-night'
     -- vim.cmd.colorscheme 'nightfox'
     -- vim.cmd.colorscheme 'terafox'
     -- vim.cmd.colorscheme 'carbonfox'
