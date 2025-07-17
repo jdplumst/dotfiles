@@ -144,12 +144,14 @@ unset __conda_setup
 `test -z "$TMUX" && (tmux attach || tmux new-session)`
 
 # pnpm
-export PNPM_HOME="/home/jdplumst/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
+# export PNPM_HOME="/home/jdplumst/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
 # pnpm end
+export PATH="/Users/jdplumst/pnpm:$PATH"
+export PNPM_HOME="/Users/jdplumst/pnpm"
 
 # Turso
 export PATH="/home/jdplumst/.turso:$PATH"
