@@ -141,7 +141,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # open tmux on startup
-`test -z "$TMUX" && (tmux attach || tmux new-session)`
+# `test -z "$TMUX" && (tmux attach || tmux new-session)`
 
 # pnpm
 # export PNPM_HOME="/home/jdplumst/.local/share/pnpm"
