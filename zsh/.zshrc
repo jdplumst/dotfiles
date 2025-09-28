@@ -170,3 +170,8 @@ export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/jdplumst/.codeium/windsurf/bin:$PATH"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+export PATH="$HOME/.local/bin:$PATH"
